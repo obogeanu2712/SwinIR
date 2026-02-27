@@ -12,7 +12,7 @@ import numpy as np
 from main_test_swinir import define_model, setup, get_image_pair
 
 
-class Predictor(cog.Predictor):
+class Predictor(cog.BasePredictor):
     def setup(self):
         model_dir = 'experiments/pretrained_models'
 
